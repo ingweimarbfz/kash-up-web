@@ -19,7 +19,7 @@ const fullTitle = title.includes(BRAND) ? title : `${title} | ${BRAND}`
     <link rel="canonical" href={canonical} />
     {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={new URL(a.href, Astro.site).href} />)}
     {noindex && <meta name="robots" content="noindex" />}
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=kashup" />
     <meta name="theme-color" content="#0A0A0B" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content={lang.replace('-', '_')} />
