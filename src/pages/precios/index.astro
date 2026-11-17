@@ -5,7 +5,7 @@ const cat = await getCatalog()
 const rows = cat.countries.map((c) => ({ c, plans: cat.byCountry[c.code] || [] }))
 const alternates = [...cat.countries.map((c) => ({ hreflang: `es-${c.code}`, href: `/precios/${slugOf(c.code)}` })), { hreflang: 'x-default', href: '/precios' }]
 ---
-<Base title="Precios de KashUp por país" description={`Planes de KashUp para negocios de préstamos en ${cat.countries.map((c) => c.name).join(', ')}, con precios en la moneda de cada país.`} alternates={alternates}>
+<Base title="Precios de QuontUp360 por país" description={`Planes de QuontUp360 para negocios de préstamos en ${cat.countries.map((c) => c.name).join(', ')}, con precios en la moneda de cada país.`} alternates={alternates}>
   <section class="page-head">
     <div class="wrap">
       <p class="crumbs"><a href="/">Inicio</a> › Precios</p>

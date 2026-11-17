@@ -2,13 +2,13 @@
 import Base from '../layouts/Base.astro'
 import { MODULES } from '../lib/modules.js'
 import { demoLink } from '../lib/config.js'
-const jsonLd = [{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'Módulos de KashUp', itemListElement: MODULES.map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: m.name, description: m.description })) }]
+const jsonLd = [{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'Módulos de QuontUp360', itemListElement: MODULES.map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: m.name, description: m.description })) }]
 ---
-<Base title="Módulos: créditos, cobro diario, productos a crédito y cajas" description="Conoce los módulos de KashUp: créditos con cuotas, cobro diario en ruta, ventas de productos a crédito, capital y cajas, flota de cobro, reportes y portal del cliente." jsonLd={jsonLd}>
+<Base title="Módulos: créditos, cobro diario, productos a crédito y cajas" description="Conoce los módulos de QuontUp360: créditos con cuotas, cobro diario en ruta, ventas de productos a crédito, capital y cajas, flota de cobro, reportes y portal del cliente." jsonLd={jsonLd}>
   <section class="page-head">
     <div class="wrap">
       <p class="crumbs"><a href="/">Inicio</a> › Módulos</p>
-      <h1>Módulos de KashUp</h1>
+      <h1>Módulos de QuontUp360</h1>
       <p class="lead">Cada plan incluye los módulos según el tamaño de tu operación. Puedes ver cuáles trae cada uno en <a href="/precios">precios</a>.</p>
     </div>
   </section>
