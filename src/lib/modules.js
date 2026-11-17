@@ -1,4 +1,4 @@
-// Módulos de KashUp para el sitio (texto pensado para búsquedas en Google).
+// Módulos de QuontUp360 para el sitio (texto pensado para búsquedas en Google).
 export const MODULES = [
   { key: 'creditos', icon: '💵', name: 'Créditos en efectivo', description: 'Préstamos con cuotas diarias, semanales, quincenales o mensuales; interés fijo, sobre saldo o anticipado; simulador y plan de pagos antes de prestar.', points: ['Tasas configurables por negocio', 'Plan de cuotas con fechas hábiles', 'Renovaciones y abonos a capital', 'Solicitudes y aprobación del administrador'] },
   { key: 'cobro', icon: '🛵', name: 'Cobro diario en ruta', description: 'Rutero del día para cada prestamista, pagos con recibo desde el celular, visitas sin pago con ubicación, gastos con soporte y cierre de jornada.', points: ['Orden de visita y avance de la ruta', 'Recibo con saldo al día', 'Mapa de clientes y cobros', 'Cuadre del efectivo al cierre'] },
