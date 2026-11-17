@@ -1,0 +1,1709 @@
+{
+    "countries": [
+        {
+            "code": "CO",
+            "name": "Colombia",
+            "currency": "COP",
+            "currencyName": "Peso colombiano",
+            "locale": "es-CO",
+            "timezone": "America/Bogota",
+            "phonePrefix": "+57",
+            "active": true,
+            "sortOrder": 1
+        },
+        {
+            "code": "PA",
+            "name": "Panam\u00e1",
+            "currency": "USD",
+            "currencyName": "D\u00f3lar estadounidense",
+            "locale": "es-PA",
+            "timezone": "America/Panama",
+            "phonePrefix": "+507",
+            "active": true,
+            "sortOrder": 2
+        },
+        {
+            "code": "VE",
+            "name": "Venezuela",
+            "currency": "USD",
+            "currencyName": "D\u00f3lar estadounidense",
+            "locale": "es-VE",
+            "timezone": "America/Caracas",
+            "phonePrefix": "+58",
+            "active": true,
+            "sortOrder": 3
+        },
+        {
+            "code": "EC",
+            "name": "Ecuador",
+            "currency": "USD",
+            "currencyName": "D\u00f3lar estadounidense",
+            "locale": "es-EC",
+            "timezone": "America/Guayaquil",
+            "phonePrefix": "+593",
+            "active": true,
+            "sortOrder": 4
+        },
+        {
+            "code": "PE",
+            "name": "Per\u00fa",
+            "currency": "PEN",
+            "currencyName": "Sol peruano",
+            "locale": "es-PE",
+            "timezone": "America/Lima",
+            "phonePrefix": "+51",
+            "active": true,
+            "sortOrder": 5
+        },
+        {
+            "code": "BO",
+            "name": "Bolivia",
+            "currency": "BOB",
+            "currencyName": "Boliviano",
+            "locale": "es-BO",
+            "timezone": "America/La_Paz",
+            "phonePrefix": "+591",
+            "active": true,
+            "sortOrder": 6
+        },
+        {
+            "code": "BR",
+            "name": "Brasil",
+            "currency": "BRL",
+            "currencyName": "Real brasile\u00f1o",
+            "locale": "pt-BR",
+            "timezone": "America/Sao_Paulo",
+            "phonePrefix": "+55",
+            "active": true,
+            "sortOrder": 7
+        },
+        {
+            "code": "PY",
+            "name": "Paraguay",
+            "currency": "PYG",
+            "currencyName": "Guaran\u00ed",
+            "locale": "es-PY",
+            "timezone": "America/Asuncion",
+            "phonePrefix": "+595",
+            "active": true,
+            "sortOrder": 8
+        },
+        {
+            "code": "CL",
+            "name": "Chile",
+            "currency": "CLP",
+            "currencyName": "Peso chileno",
+            "locale": "es-CL",
+            "timezone": "America/Santiago",
+            "phonePrefix": "+56",
+            "active": true,
+            "sortOrder": 9
+        },
+        {
+            "code": "AR",
+            "name": "Argentina",
+            "currency": "ARS",
+            "currencyName": "Peso argentino",
+            "locale": "es-AR",
+            "timezone": "America/Argentina/Buenos_Aires",
+            "phonePrefix": "+54",
+            "active": true,
+            "sortOrder": 10
+        },
+        {
+            "code": "UY",
+            "name": "Uruguay",
+            "currency": "UYU",
+            "currencyName": "Peso uruguayo",
+            "locale": "es-UY",
+            "timezone": "America/Montevideo",
+            "phonePrefix": "+598",
+            "active": true,
+            "sortOrder": 11
+        }
+    ],
+    "features": [
+        {
+            "key": "creditos",
+            "label": "Cr\u00e9ditos en efectivo, tasas y simulador",
+            "group": "cartera",
+            "description": "Cuotas diarias, semanales, quincenales o mensuales, inter\u00e9s fijo, sobre saldo o anticipado.",
+            "core": true,
+            "sortOrder": 1
+        },
+        {
+            "key": "pagos",
+            "label": "Pagos con recibo imprimible",
+            "group": "cartera",
+            "description": "Recibo de caja con el saldo al d\u00eda; abonos a capital y renovaciones.",
+            "core": true,
+            "sortOrder": 2
+        },
+        {
+            "key": "solicitudes",
+            "label": "Solicitudes y aprobaci\u00f3n de cr\u00e9ditos",
+            "group": "cartera",
+            "description": "El prestamista pide y el administrador aprueba los cr\u00e9ditos adicionales.",
+            "core": false,
+            "sortOrder": 3
+        },
+        {
+            "key": "productos",
+            "label": "Cr\u00e9ditos de productos con inventario",
+            "group": "productos",
+            "description": "Cat\u00e1logo con fotos, bodegas por sede, existencias y traslados.",
+            "core": false,
+            "sortOrder": 10
+        },
+        {
+            "key": "promociones",
+            "label": "Promociones por fechas y horarios",
+            "group": "productos",
+            "description": "Black Friday, horas felices y temporadas con su tag y emoji.",
+            "core": false,
+            "sortOrder": 11
+        },
+        {
+            "key": "rutas",
+            "label": "Rutas, rutero y visitas",
+            "group": "cobro",
+            "description": "Orden de visita del d\u00eda, cobros en calle y visitas sin pago.",
+            "core": false,
+            "sortOrder": 20
+        },
+        {
+            "key": "mapa",
+            "label": "Mapa de clientes y cobros",
+            "group": "cobro",
+            "description": "Ubicaci\u00f3n de cada cliente y de cada pago registrado.",
+            "core": false,
+            "sortOrder": 21
+        },
+        {
+            "key": "gastos",
+            "label": "Gastos y cierre de jornada",
+            "group": "cobro",
+            "description": "Gastos con soporte y cuadre del efectivo al final del d\u00eda.",
+            "core": false,
+            "sortOrder": 22
+        },
+        {
+            "key": "cajas",
+            "label": "Capital, cajas y traslados de dinero",
+            "group": "cobro",
+            "description": "Capital del negocio, caja de cada prestamista y entregas de efectivo.",
+            "core": false,
+            "sortOrder": 23
+        },
+        {
+            "key": "vehiculos",
+            "label": "Veh\u00edculos de cobro",
+            "group": "flota",
+            "description": "SOAT, tecnomec\u00e1nica, tanqueos, mantenimientos y kilometraje.",
+            "core": false,
+            "sortOrder": 30
+        },
+        {
+            "key": "conductores",
+            "label": "Conductores con acceso a su veh\u00edculo",
+            "group": "flota",
+            "description": "El conductor consulta los gastos y mantenimientos de su veh\u00edculo.",
+            "core": false,
+            "sortOrder": 31
+        },
+        {
+            "key": "reportes",
+            "label": "Reportes e informes en PDF",
+            "group": "control",
+            "description": "Recaudo, colocaci\u00f3n, cartera y resultados listos para imprimir.",
+            "core": false,
+            "sortOrder": 40
+        },
+        {
+            "key": "bitacora",
+            "label": "Bit\u00e1cora del prestamista",
+            "group": "control",
+            "description": "Todo lo que movi\u00f3 dinero, con alertas de faltantes y anulaciones.",
+            "core": false,
+            "sortOrder": 41
+        },
+        {
+            "key": "auditoria",
+            "label": "Auditor\u00eda de acciones",
+            "group": "control",
+            "description": "Qui\u00e9n hizo qu\u00e9 y cu\u00e1ndo dentro del sistema.",
+            "core": false,
+            "sortOrder": 42
+        },
+        {
+            "key": "telegram",
+            "label": "Avisos por Telegram",
+            "group": "control",
+            "description": "Grupos por sede para cobros, cr\u00e9ditos, gastos y res\u00famenes del d\u00eda.",
+            "core": false,
+            "sortOrder": 43
+        },
+        {
+            "key": "portal_cliente",
+            "label": "Portal del cliente",
+            "group": "clientes",
+            "description": "El cliente consulta sus cr\u00e9ditos, cuotas y pagos con su documento.",
+            "core": false,
+            "sortOrder": 50
+        }
+    ],
+    "byCountry": {
+        "CO": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "COP",
+                "priceMonth": 89900,
+                "priceYear": 898600
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "COP",
+                "priceMonth": 189900,
+                "priceYear": 1898000
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "COP",
+                "priceMonth": 389900,
+                "priceYear": 3897000
+            }
+        ],
+        "PA": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "USD",
+                "priceMonth": 24,
+                "priceYear": 240
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "USD",
+                "priceMonth": 49,
+                "priceYear": 490
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "USD",
+                "priceMonth": 99,
+                "priceYear": 990
+            }
+        ],
+        "VE": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "USD",
+                "priceMonth": 19,
+                "priceYear": 190
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "USD",
+                "priceMonth": 39,
+                "priceYear": 390
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "USD",
+                "priceMonth": 79,
+                "priceYear": 790
+            }
+        ],
+        "EC": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "USD",
+                "priceMonth": 24,
+                "priceYear": 240
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "USD",
+                "priceMonth": 49,
+                "priceYear": 490
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "USD",
+                "priceMonth": 99,
+                "priceYear": 990
+            }
+        ],
+        "PE": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "PEN",
+                "priceMonth": 89,
+                "priceYear": 890
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "PEN",
+                "priceMonth": 179,
+                "priceYear": 1789
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "PEN",
+                "priceMonth": 369,
+                "priceYear": 3689
+            }
+        ],
+        "BO": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "BOB",
+                "priceMonth": 159,
+                "priceYear": 1589
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "BOB",
+                "priceMonth": 329,
+                "priceYear": 3289
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "BOB",
+                "priceMonth": 679,
+                "priceYear": 6787
+            }
+        ],
+        "BR": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "BRL",
+                "priceMonth": 119,
+                "priceYear": 1190
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "BRL",
+                "priceMonth": 249,
+                "priceYear": 2489
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "BRL",
+                "priceMonth": 519,
+                "priceYear": 5188
+            }
+        ],
+        "PY": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "PYG",
+                "priceMonth": 179000,
+                "priceYear": 1789000
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "PYG",
+                "priceMonth": 369000,
+                "priceYear": 3689000
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "PYG",
+                "priceMonth": 759000,
+                "priceYear": 7587000
+            }
+        ],
+        "CL": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "CLP",
+                "priceMonth": 21900,
+                "priceYear": 218900
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "CLP",
+                "priceMonth": 44900,
+                "priceYear": 448800
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "CLP",
+                "priceMonth": 92900,
+                "priceYear": 928600
+            }
+        ],
+        "AR": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "ARS",
+                "priceMonth": 24900,
+                "priceYear": 248900
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "ARS",
+                "priceMonth": 52900,
+                "priceYear": 528800
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "ARS",
+                "priceMonth": 109900,
+                "priceYear": 1099000
+            }
+        ],
+        "UY": [
+            {
+                "id": 1,
+                "code": "emprendedor",
+                "name": "Emprendedor",
+                "tagline": "Para quien empieza su cartera y cobra en una sola ruta.",
+                "limits": {
+                    "sites": 1,
+                    "admins": 1,
+                    "lenders": 2,
+                    "drivers": 0,
+                    "clientUsers": 50,
+                    "customers": 150
+                },
+                "support": "WhatsApp en horario h\u00e1bil",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "1 sede y 2 prestamistas",
+                    "Hasta 150 clientes",
+                    "Cr\u00e9ditos en efectivo con recibo",
+                    "Rutero, gastos y cierre de jornada"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "rutas",
+                    "gastos",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 1,
+                "active": true,
+                "currency": "UYU",
+                "priceMonth": 990,
+                "priceYear": 9896
+            },
+            {
+                "id": 2,
+                "code": "profesional",
+                "name": "Profesional",
+                "tagline": "Para el negocio que ya tiene varias rutas, productos y cajas.",
+                "limits": {
+                    "sites": 3,
+                    "admins": 2,
+                    "lenders": 8,
+                    "drivers": 4,
+                    "clientUsers": 500,
+                    "customers": 1000
+                },
+                "support": "WhatsApp y llamada",
+                "highlight": true,
+                "badge": "M\u00e1s elegido",
+                "bullets": [
+                    "3 sedes y 8 prestamistas",
+                    "Hasta 1.000 clientes",
+                    "Cr\u00e9ditos de productos con promociones",
+                    "Capital, cajas, reportes en PDF y avisos por Telegram"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "reportes",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 2,
+                "active": true,
+                "currency": "UYU",
+                "priceMonth": 1990,
+                "priceYear": 19900
+            },
+            {
+                "id": 3,
+                "code": "empresarial",
+                "name": "Empresarial",
+                "tagline": "Para la operaci\u00f3n grande, con flota y control total del dinero.",
+                "limits": {
+                    "sites": null,
+                    "admins": 5,
+                    "lenders": 30,
+                    "drivers": 15,
+                    "clientUsers": null,
+                    "customers": null
+                },
+                "support": "Prioritario con acompa\u00f1amiento",
+                "highlight": false,
+                "badge": null,
+                "bullets": [
+                    "Sedes y clientes ilimitados",
+                    "30 prestamistas y 15 conductores",
+                    "Flota con conductores y bit\u00e1cora del prestamista",
+                    "Auditor\u00eda y todos los m\u00f3dulos"
+                ],
+                "features": [
+                    "creditos",
+                    "pagos",
+                    "solicitudes",
+                    "productos",
+                    "promociones",
+                    "rutas",
+                    "mapa",
+                    "gastos",
+                    "cajas",
+                    "vehiculos",
+                    "conductores",
+                    "reportes",
+                    "bitacora",
+                    "auditoria",
+                    "telegram",
+                    "portal_cliente"
+                ],
+                "annualDiscount": 16.7,
+                "trialDays": 15,
+                "sortOrder": 3,
+                "active": true,
+                "currency": "UYU",
+                "priceMonth": 3990,
+                "priceYear": 39900
+            }
+        ]
+    }
+}
