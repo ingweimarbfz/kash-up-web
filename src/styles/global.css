@@ -1,4 +1,4 @@
-/* Sitio público de KashUp: negro y esmeralda como la app. */
+/* Sitio público de QuontUp360: negro y esmeralda como la app. */
 :root {
   --black: #0A0A0B; --graphite: #18181B; --g800: #27272A; --g700: #3F3F46; --g500: #71717A; --g400: #A1A1AA; --g300: #D4D4D8; --g200: #E4E4E7; --g100: #F4F4F5;
   --brand: #10B981; --brand-600: #059669; --brand-50: #ECFDF5; --bad: #EF4444;
@@ -29,6 +29,7 @@ h3 { font-size: 1.1rem; font-weight: 700; }
 .nav-in { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 66px; }
 .brand { display: inline-flex; align-items: center; gap: 9px; text-decoration: none; color: #fff; font-weight: 800; font-size: 1.3rem; letter-spacing: -.04em; }
 .brand b { color: var(--brand); }
+.brand sup { color: var(--brand); font-size: .5em; font-weight: 700; letter-spacing: 0; vertical-align: .9em; margin-left: .04em; }
 .links { display: flex; align-items: center; gap: 22px; }
 .links > a:not(.btn) { color: var(--g300); text-decoration: none; font-weight: 500; font-size: .95rem; }
 .links > a:not(.btn):hover, .links a[aria-current] { color: #fff; }

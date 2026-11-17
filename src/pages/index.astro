@@ -10,7 +10,7 @@ const cat = await getCatalog()
 const country = cat.countries.find((c) => c.code === 'CO') || cat.countries[0]
 const plans = cat.byCountry[country.code] || []
 const FAQ = [
-  ['¿Qué es KashUp?', 'Un software en la nube para negocios de préstamos y ventas a crédito: créditos con cuotas, cobro diario en ruta, cajas de los prestamistas, productos a crédito, flota de cobro y reportes.'],
+  ['¿Qué es QuontUp360?', 'Un software en la nube para negocios de préstamos y ventas a crédito: créditos con cuotas, cobro diario en ruta, cajas de los prestamistas, productos a crédito, flota de cobro y reportes.'],
   ['¿En qué países funciona?', `En ${cat.countries.map((c) => c.name).join(', ')}. Cada negocio trabaja en la moneda de su país y los planes tienen precio en esa moneda.`],
   ['¿El prestamista lo puede usar desde el celular?', 'Sí. El rutero, los pagos con recibo, los gastos y el cierre de jornada están pensados para el celular, con la ubicación de cada cobro.'],
   ['¿Cuántos prestamistas y clientes puedo tener?', 'Depende del plan: cada plan define cuántas sedes, administradores, prestamistas, conductores y clientes permite. Puedes cambiar de plan cuando crezcas.'],
@@ -18,7 +18,7 @@ const FAQ = [
   ['¿Hay periodo de prueba?', `Sí. Los planes incluyen ${plans[0]?.trialDays || 15} días de prueba para que lo uses con tu propia cartera.`]
 ]
 const jsonLd = [
-  { '@context': 'https://schema.org', '@type': 'Organization', name: BRAND, url: Astro.site.href, logo: new URL('/favicon.svg', Astro.site).href },
+  { '@context': 'https://schema.org', '@type': 'Organization', name: BRAND, url: Astro.site.href, logo: new URL('/app-icon-512.png', Astro.site).href },
   {
     '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: BRAND, applicationCategory: 'BusinessApplication', operatingSystem: 'Web, Android, iOS',
     description: 'Software para negocios de préstamos: créditos con cuotas diarias, cobro en ruta, cajas, productos a crédito y reportes.',
@@ -27,13 +27,13 @@ const jsonLd = [
   { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }
 ]
 ---
-<Base title="KashUp: software para préstamos, cobro diario y ventas a crédito" description={`Programa para prestamistas y negocios de crédito: cuotas diarias, rutas de cobro desde el celular, cajas, inventario a crédito y reportes. Planes desde ${money(plans[0]?.priceMonth || 0, country)} al mes en Colombia y precios en la moneda de cada país.`} jsonLd={jsonLd} lang="es">
+<Base title="QuontUp360: software para préstamos, cobro diario y ventas a crédito" description={`Programa para prestamistas y negocios de crédito: cuotas diarias, rutas de cobro desde el celular, cajas, inventario a crédito y reportes. Planes desde ${money(plans[0]?.priceMonth || 0, country)} al mes en Colombia y precios en la moneda de cada país.`} jsonLd={jsonLd} lang="es">
   <section class="hero">
     <div class="wrap hero-in">
       <div>
         <p class="kicker">Software para préstamos y ventas a crédito</p>
         <h1>Tu cartera bajo control, cuota a cuota</h1>
-        <p class="lead">Presta en efectivo o en productos, organiza la ruta de cada cobrador, registra los pagos con recibo desde el celular y cuadra la caja al final del día. KashUp funciona en {cat.countries.length} países de Latinoamérica, cada uno en su moneda.</p>
+        <p class="lead">Presta en efectivo o en productos, organiza la ruta de cada cobrador, registra los pagos con recibo desde el celular y cuadra la caja al final del día. QuontUp360 funciona en {cat.countries.length} países de Latinoamérica, cada uno en su moneda.</p>
         <div class="cta">
           <a class="btn lg" href={demoLink()}>Pedir demostración</a>
           <a class="btn lg outline light" href="/precios">Ver precios en tu país</a>

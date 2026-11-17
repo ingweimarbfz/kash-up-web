@@ -17,8 +17,8 @@ const groups = Object.entries(GROUPS).map(([g, l]) => ({ g, l, items: cat.featur
 const alternates = [...cat.countries.map((c) => ({ hreflang: `es-${c.code}`, href: `/precios/${slugOf(c.code)}` })), { hreflang: 'x-default', href: '/precios' }]
 const jsonLd = [
   {
-    '@context': 'https://schema.org', '@type': 'Product', name: `KashUp para negocios de préstamos en ${country.name}`,
-    description: `Software de préstamos y cobro diario con precios en ${country.currencyName}.`, brand: { '@type': 'Brand', name: 'KashUp' },
+    '@context': 'https://schema.org', '@type': 'Product', name: `QuontUp360 para negocios de préstamos en ${country.name}`,
+    description: `Software de préstamos y cobro diario con precios en ${country.currencyName}.`, brand: { '@type': 'Brand', name: 'QuontUp360' },
     offers: {
       '@type': 'AggregateOffer', priceCurrency: country.currency, offerCount: plans.length,
       lowPrice: String(Math.min(...plans.map((p) => p.priceMonth))), highPrice: String(Math.max(...plans.map((p) => p.priceMonth))),
@@ -33,18 +33,18 @@ const jsonLd = [
 ]
 const min = plans.length ? money(Math.min(...plans.map((p) => p.priceMonth)), country) : null
 ---
-<Base title={`Software para préstamos en ${country.name}: planes y precios en ${country.currency}`} description={`Precios de KashUp en ${country.name}${min ? ` desde ${min} al mes` : ''}, en ${country.currencyName}. Créditos con cuotas diarias, rutas de cobro, cajas y reportes para tu negocio de préstamos.`} jsonLd={jsonLd} lang={`es-${country.code}`} alternates={alternates}>
+<Base title={`Software para préstamos en ${country.name}: planes y precios en ${country.currency}`} description={`Precios de QuontUp360 en ${country.name}${min ? ` desde ${min} al mes` : ''}, en ${country.currencyName}. Créditos con cuotas diarias, rutas de cobro, cajas y reportes para tu negocio de préstamos.`} jsonLd={jsonLd} lang={`es-${country.code}`} alternates={alternates}>
   <section class="page-head">
     <div class="wrap">
       <p class="crumbs"><a href="/">Inicio</a> › <a href="/precios">Precios</a> › {country.name}</p>
-      <h1><img src={`/flags/${country.code.toLowerCase()}.svg`} alt="" width="40" height="30" class="h-flag" /> Planes de KashUp en {country.name}</h1>
+      <h1><img src={`/flags/${country.code.toLowerCase()}.svg`} alt="" width="40" height="30" class="h-flag" /> Planes de QuontUp360 en {country.name}</h1>
       <p class="lead">Precios en {country.currencyName} ({country.currency}), con pago mensual o anual. Todos incluyen créditos con cuotas, pagos con recibo y el portal del cliente.</p>
       <CountryPicker countries={cat.countries} current={country.code} />
     </div>
   </section>
   <section class="sec">
     <div class="wrap">
-      {plans.length ? <PlanCards plans={plans} country={country} /> : <p>Muy pronto tendremos planes para {country.name}. <a href={demoLink(`información de KashUp en ${country.name}`)}>Escríbenos</a>.</p>}
+      {plans.length ? <PlanCards plans={plans} country={country} /> : <p>Muy pronto tendremos planes para {country.name}. <a href={demoLink(`información de QuontUp360 en ${country.name}`)}>Escríbenos</a>.</p>}
     </div>
   </section>
   {plans.length > 0 && (
@@ -74,7 +74,7 @@ const min = plans.length ? money(Math.min(...plans.map((p) => p.priceMonth)), co
   <section class="band">
     <div class="wrap band-in">
       <h2>¿Tienes dudas sobre el plan para tu negocio en {country.name}?</h2>
-      <a class="btn lg" href={demoLink(`asesoría de planes de KashUp en ${country.name}`)}>Hablar con un asesor</a>
+      <a class="btn lg" href={demoLink(`asesoría de planes de QuontUp360 en ${country.name}`)}>Hablar con un asesor</a>
     </div>
   </section>
 </Base>

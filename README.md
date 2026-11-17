@@ -1,4 +1,4 @@
-# KashUp · sitio web (SEO)
+# QuontUp360 · sitio web (SEO)
 
 Sitio público para Google, hecho con Astro (páginas estáticas). Muestra los módulos y los planes con precios en la moneda de cada país.
 
@@ -18,7 +18,7 @@ Al compilar se leen los planes de la API (`GET /publico/catalogo`). Lo que se ca
 | Variable | Para qué |
 | --- | --- |
 | `SITE_URL` | Dominio público (canónicas y sitemap). |
-| `API_URL` | URL del backend de KashUp. |
+| `API_URL` | URL del backend de QuontUp360. |
 | `PUBLIC_APP_URL` | URL de la app (botón Ingresar). |
 | `PUBLIC_WHATSAPP` | Número de WhatsApp comercial con indicativo, sin +. |
 | `PUBLIC_CONTACT_EMAIL` | Correo comercial (si no hay WhatsApp). |

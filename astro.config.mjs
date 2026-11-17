@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config'
 import sitemap from '@astrojs/sitemap'
 
 // Dirección pública del sitio (canónicas, sitemap y Open Graph). Se define en SITE_URL al publicar.
-const site = process.env.SITE_URL || 'https://kashup.app'
+const site = process.env.SITE_URL || 'https://quontup360-web.vercel.app'
 
 export default defineConfig({
   site,

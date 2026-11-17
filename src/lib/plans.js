@@ -2,7 +2,7 @@
 // así el sitio muestra lo mismo que la plataforma. Si la API no responde se usa fallback.json.
 import fallback from './fallback.json'
 
-const API = (process.env.API_URL || 'https://kash-up-backend.onrender.com').replace(/\/$/, '')
+const API = (process.env.API_URL || 'https://quontup360-backend.onrender.com').replace(/\/$/, '')
 let cache = null
 
 export const getCatalog = async () => {
